@@ -12047,7 +12047,7 @@ body .product-popup {
   }
 
   .row .main-content {
-    max-width: calc( 100% - 31rem );
+    max-width: calc( 100% - 3rem );
   }
 
   .shop-sidebar.sidebar-fixed .sidebar-content {
@@ -21455,4 +21455,19 @@ aside .sp-sidebar-banner span {
 .new-btn{
   background-color: var(--background-color);
   color: var(--theme-color);
+}
+.abt-discription{
+  text-justify: kashida;
+}
+.page-header {
+  background-image: url('/assets/images/banner/banner-2.png');
+  background-size: cover;         /* Makes sure the image covers the entire container */
+  background-position: center;    /* Centers the image */
+  background-repeat: no-repeat;   /* Prevents repeating */
+  padding: 60px 0;                /* Adds vertical padding for better height */
+  color: white; 
+  height: 300px!important;                  /* Makes text readable on dark images */
+}
+.page-title{
+  color: var(--background-color);
 }
