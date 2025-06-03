@@ -7,7 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>Hofmaan | Blogs</title>
+
+    <title>Hofmaan | Login</title>
 
     <meta name="keywords" content="Marketplace ecommerce responsive HTML5 Template" />
     <meta name="description" content="Wolmart is powerful marketplace &amp; ecommerce responsive Html5 Template.">
@@ -39,6 +40,7 @@
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
@@ -50,7 +52,7 @@
 <body>
     <div class="page-wrapper">
         <!-- Start of Header -->
-   <header class="header">
+      <header class="header">
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
@@ -120,229 +122,62 @@
         </header>
         <!-- End of Header -->
 
-
         <!-- Start of Main -->
-        <main class="main">
-            <!-- Start of Page Header -->
-            <div class="page-header">
-                <div class="container">
-                    <h1  class="page-title  mb-0">Blogs</h1>
-                </div>
-            </div>
-            <!-- End of Page Header -->
+        <main class="main login-page">
+  
 
             <!-- Start of Breadcrumb -->
-            <nav class="breadcrumb-nav mb-6">
+            <nav class="breadcrumb-nav">
                 <div class="container">
                     <ul class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="blogs.html">Blog</a></li>
-        
+                        <li>My account</li>
                     </ul>
                 </div>
             </nav>
             <!-- End of Breadcrumb -->
-
-            <!-- Start of Page Content -->
             <div class="page-content">
                 <div class="container">
-                
+                    <div class="login-popup">
+                        <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
+                            <ul class="nav nav-tabs text-uppercase" role="tablist">
+                                <li class="nav-item">
+                                    <a href="#sign-in" class="nav-link active">Forgot password</a>
+                                </li>
+                            
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="sign-in">
+                                    <div class="form-group">
+                                        <label>Username or email address *</label>
+                                        <input type="text" class="form-control" name="username" id="username" required>
+                                    </div>
+                             
+                            
+                                    <a href="otp.html"  class="btn btn-primary">Send Otp</a>
+                                </div>
+                   
+                            </div>
+                            <p class="text-center">Sign in with social account</p>
+                            <div class="social-icons social-icon-border-color d-flex justify-content-center">
+                                <a href="#" class="social-icon social-facebook w-icon-facebook"></a>
 
-                    <div class="row grid cols-lg-3 cols-md-2 mb-2" data-grid-options="{
-                        'layoutMode': 'fitRows'
-                    }">
-                        <article class="post post-grid-type grid-item overlay-zoom fashion">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/1.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Fashion</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">New found the men dress for summer</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p> <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.01.2021</a>
+                                <a href="#" class="social-icon social-google fab fa-google"></a>
+                            </div>
+                        </div>
 
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post post-grid-type grid-item overlay-zoom others technology">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/2.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Others</a>,
-                                    <a href="#">Technology</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">Recognitory the needs is primary condition  for design</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p>
-                                    <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.05.2021</a>
-                                   
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post post-grid-type grid-item overlay-zoom clothes">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/3.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Clothes</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">New found the women’s shirt  for summer season</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p>
-                                    <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.01.2021</a>
-                                  
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post post-grid-type grid-item overlay-zoom lifestyle">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/4.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Lifestyle</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">We want to be different and fashion gives to me that outlet</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p>
-                                    <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.03.2021</a>
-                                  
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post post-grid-type grid-item overlay-zoom entertainment shoes lifestyle others">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/5.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Entertainment</a>,
-                                    <a href="#">Lifestyle</a>,
-                                    <a href="#">Others</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">Comes a cool blog post with Images</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p>
-                                    <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.01.2021</a>
-                                   
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post post-grid-type grid-item overlay-zoom fashion lifestyle">
-                            <figure class="post-media br-sm">
-                                <a href="blogDetails.html">
-                                    <img src="assets/images/blog/2cols/6.jpg" width="600"
-                                        height="420" alt="blog">
-                                </a>
-                            </figure>
-                            <div class="post-details">
-                                <div class="post-cats text-primary">
-                                    <a href="#">Fashion</a>,
-                                    <a href="#">Technology</a>
-                                </div>
-                                <h4 class="post-title">
-                                    <a href="blogDetails.html">Fusce lacinia arcuet nulla</a>
-                                </h4>
-                                <div class="post-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, 
-                                    eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at 
-                                    vulputate volutpat, uctus metus libero eu augue, vitae luctus…</p>
-                                    <a href="blogDetails.html" class="btn btn-link btn-primary">(read more)</a>
-                                </div>
-                                <div class="post-meta">
-                                    by <a href="#" class="post-author">John Doe</a>
-                                    - <a href="#" class="post-date">03.06.2021</a>
-                                 
-                                </div>
-                            </div>
-                        </article>
+                  
+                </div>
+
+                        
                     </div>
-                    <ul class="pagination justify-content-center mb-10 pb-2 pt-2">
-                        <li class="prev disabled">
-                            <a href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
-                                <i class="w-icon-long-arrow-left"></i>Prev
-                            </a>
-                        </li>
-                        <li class="page-item active">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="next">
-                            <a href="#" aria-label="Next">
-                                Next<i class="w-icon-long-arrow-right"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-            <!-- End of Page Content -->
         </main>
         <!-- End of Main -->
 
         <!-- Start of Footer -->
-        <footer class="footer appear-animate" data-animation-options="{
+      <footer class="footer appear-animate" data-animation-options="{
             'name': 'fadeIn'
         }">
             <div class="footer-newsletter bg-primary">
@@ -460,7 +295,7 @@
     <!-- End of Page Wrapper -->
 
     <!-- Start of Sticky Footer -->
-    <div class="sticky-footer sticky-content fix-bottom">
+     <div class="sticky-footer sticky-content fix-bottom">
         <a href="index.html" class="sticky-link active">
             <i class="w-icon-home"></i>
             <p>Home</p>
@@ -497,7 +332,7 @@
     <!-- End of Scroll Top -->
 
     <!-- Start of Mobile Menu -->
-    <div class="mobile-menu-wrapper">
+   <div class="mobile-menu-wrapper">
         <div class="mobile-menu-overlay"></div>
         <!-- End of .mobile-menu-overlay -->
 
@@ -693,12 +528,9 @@
 
     <!-- Plugin JS File -->
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/main.min.js"></script>
 </body>
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/blog-grid-3cols.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 May 2025 15:22:41 GMT -->
 </html>

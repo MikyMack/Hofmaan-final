@@ -16955,3 +16955,7 @@ body .product-popup {
     max-width: 6rem;
   }
 }
+
+.dropdown > .cart-toggle1::after{
+  display: none!important;
+}
