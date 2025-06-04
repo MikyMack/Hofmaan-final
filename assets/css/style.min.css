@@ -21809,3 +21809,18 @@ aside .sp-sidebar-banner span {
                 font-size: 16px;
             }
         }
+   .wishlist-in-stock li {
+  list-style-type: disc; /* default dot */
+
+  position: relative;
+  color: #333;
+  font-size: 13px;
+}
+
+.status-delivered::marker {
+  color: green;
+}
+
+.status-canceled::marker {
+  color: red;
+}
