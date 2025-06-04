@@ -564,7 +564,7 @@
         function updateTimerDisplay() {
             const minutes = Math.floor(otpTimer / 60);
             const seconds = otpTimer % 60;
-            timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            timerDisplay.textContent = `₹{minutes.toString().padStart(2, '0')}:₹{seconds.toString().padStart(2, '0')}`;
         }
 
         function enableResend() {
@@ -585,7 +585,7 @@
                     // Clear error states
                     clearErrorStates();
                     
-                    if (value.length === 1 && /^\d$/.test(value)) {
+                    if (value.length === 1 && /^\d₹/.test(value)) {
                         input.classList.add('filled');
                         
                         // Move to next input
