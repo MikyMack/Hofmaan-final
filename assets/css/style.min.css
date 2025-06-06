@@ -22177,7 +22177,7 @@ aside .sp-sidebar-banner span {
             position: absolute;
             left: 18px;
             top: 50%;
-            transform: translateY(-50%);
+            transform: translateY(-70%);
             color: #999;
             font-size: 1.1rem;
         }
@@ -22227,3 +22227,4 @@ aside .sp-sidebar-banner span {
             color: #333;
             transform: rotate(90deg);
         }
+ 
