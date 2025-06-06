@@ -14011,7 +14011,7 @@ body .product-popup {
 }
 
 .header-top {
-  background: #f5f6f8;
+  background: #011f3e;
   font-size: 1.1rem;
   letter-spacing: -0.027em;
   text-transform: none;
@@ -14136,6 +14136,7 @@ body .product-popup {
   white-space: nowrap;
   padding: 14px 0;
   text-transform: uppercase;
+  color: white;
 }
 
 .header-middle {
